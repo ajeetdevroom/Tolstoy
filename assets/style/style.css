@@ -1,0 +1,117 @@
+body{
+  font-family: 'roboto', serif;
+}
+.container-size{
+  height: 100vh;
+  width: 100%;
+  padding: 5% 10%;
+  background-image: linear-gradient(#005764, #00cfbb,#09faf4)
+}
+#login-container{
+  background: linear-gradient( #0f466d, #00d1bc 70.71%),
+            linear-gradient(127deg, #0f466d, #3cc1c6 70.71%),
+            linear-gradient(336deg, #0f466d,#3cc1c6 70.71%),
+            linear-gradient(336deg, #0f466d, #0f466d 70.71%);
+}
+#login-form input[type="password"],
+#login-form input[type="text"]{
+  width: 100%;
+  padding: 12px 36px 12px 36px;
+  box-sizing: border-box;
+  background-color: #1a292e;
+  height: 40px;
+  border:none;
+  border-radius: 5px;
+  color: #fff;
+}
+
+#login-form input[type="email"]{
+  width: 100%;
+  padding: 5px 36px 5px 36px;
+  box-sizing: border-box;
+  background-color: #1a292e;
+  height: 40px;
+  border:none;
+  border-radius: 5px;
+  color: #fff;
+}
+.fld-container{
+  width:100%;
+  position:relative;
+  background-color: #1a292e;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+.fa-eye,.fa-eye-slash{
+  position: absolute;
+  top: 28%;
+  right: 4%;
+  cursor: pointer;
+  color: lightgray;
+}
+.left-icon{
+  position: absolute;
+  top: 28%;
+  left: 4%;
+  cursor: pointer;
+  color: lightgray;
+}
+
+#right-container{
+  padding: 10% ;
+  width: 100%;
+}
+#left-container{
+  width: 100%;
+  background-color: #09161c;
+  padding: 10% ;
+}
+#title-sign-up{
+  color: #fff;
+  font-size: 20px;
+  font-family: roboto;
+  font-weight:900;
+}
+.lbl{
+  font-size: 12px;
+  font-weight: 500;
+}
+.lbl-fld{
+  color: #fff;
+  font-size: 12px;
+}
+.para-txt-white{
+  color: #fff;
+}
+.link{
+  color: #39a3a0 !important;
+  text-decoration: none !important;
+  cursor: pointer;
+  font-size: 10px;
+  font-weight: bold;
+}
+.link-block{
+  display: block !important;
+}
+.txt-a-center{
+  text-align: center;
+}
+.lbl{
+  font-size: 10px;
+  color: #fff;
+}
+.btn-sign-up{
+  margin: 0 auto;
+  background-color: #00e1db;
+  height: 40px;
+  color: #014242;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 15px;
+  padding:5px 15px;
+  cursor: pointer;
+  box-shadow: 1px 1px 6px 1px #00cfbb;
+  width: 100%;
+  margin: 15px 10px 10px 10px;
+  border: none;
+}

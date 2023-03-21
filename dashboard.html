@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <title> Dashboard | TOLSTOY </title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./assets/style/font.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/semantic.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/components/card.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/components/dropdown.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/components/search.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+  <link href="./assets/style/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/style/all.min.css" />
+  <link rel="stylesheet" href="./assets/style/dashboard.css">
+  <link rel="stylesheet" href="./assets/style/animate.css" />
+  <!-- <link rel="stylesheet" href="./assets/style/semantic.min.css"/> -->
+
+</head>
+
+<body>
+  <img id="logoimg1" class="animate__animated animate__fadeIn" src="./assets/img/logo.PNG" alt="image not found">
+  <img id="logoimg2" class="animate__animated  animate__fadeOut" src="./assets/img/fade-logo.PNG" alt="image not found">
+  <div id="content" class="animate__animated animate__fadeIn ">
+
+    <div class="sidebar">
+      <div class="logo_content">
+        <div class="logo">
+          <div class="logo_name">TOLSTOY</div>
+        </div>
+        <i class="fa-solid fa-bars" id="btn"></i>
+      </div>
+      
+      <div class="ui search ">
+        <div class="ui icon input">
+          <input class="prompt" type="text" placeholder="Search ...">
+          <i class="search icon"></i>
+        </div>
+        <div class="results"></div>
+      </div>
+      <ul class="nav_list">
+        <li>
+          <a href="#">
+            <i class="fa-solid fa-gauge"></i>
+            <span class="links_name">All companies</span>
+
+          </a>
+          <span class="tooltip">All companies</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-solid fa-user"></i>
+            <span class="links_name">News</span>
+
+          </a>
+          <span class="tooltip">News</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-brands fa-product-hunt"></i>
+            <span class="links_name">Product & Facility Locator</span>
+          </a>
+          <span class="tooltip">Product & Facility Locator</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-brands fa-searchengin"></i>
+            <span class="links_name">Research</span>
+
+          </a>
+          <span class="tooltip">Research</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-solid fa-folder"></i>
+            <span class="links_name">File Manager</span>
+          </a>
+          <span class="tooltip">File Manager</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-brands fa-mix"></i>
+            <span class="links_name">Industry Data</span>
+          </a>
+          <span class="tooltip">Industry Data</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-solid fa-floppy-disk"></i>
+            <span class="links_name">Saved</span>
+          </a>
+          <span class="tooltip">Saved</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-solid fa-calendar-days"></i>
+            <span class="links_name">Events</span>
+          </a>
+          <span class="tooltip">Events</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-solid fa-users"></i>
+            <span class="links_name">Regulatory</span>
+          </a>
+          <span class="tooltip">Regulatory</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-solid fa-shop"></i>
+            <span class="links_name">Marketing</span>
+          </a>
+          <span class="tooltip">Marketing</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-solid fa-question"></i>
+            <span class="links_name">How To & FAQ’s</span>
+          </a>
+          <span class="tooltip">How To & FAQ’s</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-solid fa-headset"></i>
+            <span class="links_name">Contact Support</span>
+          </a>
+          <span class="tooltip">Contact Support</span>
+        </li>
+
+      </ul>
+
+    </div>
+     <div class="home_content ui inverted segment">
+      <div class="title-container">
+        <div class="row">
+          <div class="text col-md-6">Dashboard</div>
+          <div class="col-md-6 main">
+            <div class="ui dropdown">
+              <div class="statistic">
+                <div class="value">
+                  <img src="./assets/img/user.png" width="50" class="ui circular inline image">
+                  Team Members
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="title-container">
+        <div class="row">
+          <div class=" col-md-6">
+           <div class="row">
+            <div class="col-md-6">
+              <div class="ui orange card">
+                <div class="content">
+                  <img class="right floated mini ui image" src="./assets/img/user.png">
+                  <div class="header">
+                    Elliot Fu
+                  </div>
+                  <div class="meta">
+                    Friends of Veronika
+                  </div>
+                  <div class="description">
+                    Elliot requested permission to view your contact details
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="ui green card">
+                <div class="content">
+                  <img class="right floated mini ui image" src="./assets/img/user.png">
+                  <div class="header">
+                    Jenny Hess
+                  </div>
+                  <div class="meta">
+                    New Member
+                  </div>
+                  <div class="description">
+                    Jenny wants to add you to the group <b>best friends</b>
+                  </div>
+                </div>
+               
+              </div>
+            </div>
+           </div>
+              
+              
+          
+          </div>
+          <div class="col-md-6">
+            <div>
+              <div class="ui inverted segment">
+                <div class="ui inverted statistic">
+                  <div class="value">
+                    54
+                  </div>
+                  <div class="label">
+                    Inverted
+                  </div>
+                </div>
+                <div class="ui red inverted statistic">
+                  <div class="value">
+                    27
+                  </div>
+                  <div class="label">
+                    Red
+                  </div>
+                </div>
+                <div class="ui orange inverted statistic">
+                  <div class="value">
+                    8
+                  </div>
+                  <div class="label">
+                    Orange
+                  </div>
+                </div>
+                <div class="ui yellow inverted statistic">
+                  <div class="value">
+                    28
+                  </div>
+                  <div class="label">
+                    Yellow
+                  </div>
+                </div>
+                <div class="ui brown inverted statistic">
+                  <div class="value">
+                    36
+                  </div>
+                  <div class="label">
+                    Brown
+                  </div>
+                </div>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="title-container">
+        <div class="row">
+          <div class=" col-md-6">
+            <div id="chart">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div>
+              <div class="ui red segment">Red</div>
+            <div class="ui orange segment">Orange</div>
+            <div class="ui yellow segment">Yellow</div>
+            <div class="ui olive segment">Olive</div>
+            <div class="ui green segment">Green</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+             
+   
+  </div>
+  <!-- End of Main Content -->
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/semantic.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/components/search.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/components/dropdown.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+  <!-- <script src="./assets/js/jquery.js"></script> -->
+  <!-- <script src="./assets/js/semantic.min.js"></script> --> 
+  <script src="./assets/js/dashboard.js"></script>
+  <script>
+    $("#btn").click(function(){
+  $(".ui.search").toggle();
+});
+    let content = [
+      { title: 'All companies' },
+      { title: 'News' },
+      { title: 'Product & Facility Locator' },
+      { title: 'Research' },
+      { title: 'File Manager' },
+      { title: 'Industry Data' },
+      { title: 'Saved' },
+      { title: 'Events' },
+      { title: 'Regulatory' },
+      { title: 'Marketing' },
+      { title: 'How To & FAQ’s' },
+      { title: 'Contact Support' },
+    ];
+    $('.ui.search')
+      .search({
+        source: content
+      })
+  </script>
+  
+  <script>
+    var options = {
+  chart: {
+    type: 'bar'
+  },
+  series: [{
+    name: 'sales',
+    data: [30,40,45,50,49,60,70,91,125]
+  }],
+  xaxis: {
+    categories: [1991,1992,1993,1994,1995,1996,1997, 1998,1999]
+  }
+}
+
+var chart = new ApexCharts(document.querySelector("#chart"), options);
+
+chart.render();
+  </script>
+  
+</body>
+
+</html>
